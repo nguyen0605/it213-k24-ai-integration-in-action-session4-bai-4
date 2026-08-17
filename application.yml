@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ai-logistics-stream
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:your-openai-api-key-here}
+      chat:
+        options:
+          model: gpt-4o
+
+server:
+  port: 8080
